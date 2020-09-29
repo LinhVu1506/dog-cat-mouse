@@ -1,10 +1,9 @@
-const Cat = require("./Cat");
-const Dog = require("./Dog");
-
-const dog = new Dog('Tom');
+const Cat = require('./Cat');
+const Mouse = require('./Mouse');
 
 const cat = new Cat();
+const mouse = new Mouse('Mickey');
 
-dog.eat(cat);
+cat.eat(mouse);
 
-console.log(dog);
+console.log(cat);
